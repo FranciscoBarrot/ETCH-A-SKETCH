@@ -4,16 +4,23 @@
     box-sizing: border-box;
 }
 
-.container{
-    width: 80%;
-    margin: 200px auto;
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
 
+.container{
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin: 200px auto;
     display: grid;
-    grid-template-columns: repeat(16, 1fr)
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border: 2px solid black;
 }
 
 .gridSquare{
-    background-color: rgb(226, 51, 51);
-    border: 2px solid black;
-    padding-bottom: 100%
+    /* background-color: rgb(226, 51, 51);
+    border: 2px solid black; */
 }
