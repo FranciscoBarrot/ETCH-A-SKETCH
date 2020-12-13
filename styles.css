@@ -25,6 +25,7 @@ body{
     border: 2px solid black; */
 }
 
-.gridSquare:hover{
-    background-color: aqua;
+
+.pixelated{
+    background-color: yellow;
 }
